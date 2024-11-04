@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lt-blue: #acd8ff;
+    --dk-blue: #002472;
+    --accent: #ff3863;
+}
+
+body {
+    background-color: var(--dk-blue);
+    color: var(--lt-blue);
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 0.4rem;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    button {
+        font-family: "Sora", sans-serif;
+        font-weight: 400;
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: var(--dk_blue);
+        border-style: none;
+    }
+    button:hover {
+        filter: brightness(2);
+    }
+}
+
+#home-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 34rem;
+            height: 22rem;
+            background-image: url(../assets/logo.png);
+            background-size: cover; 
+            margin-bottom: 4rem;
+        }
+        p {
+            font-size: 1.4rem;
+            font-weight: 700;
+            align-self: center
+        }
+
+    }
+    .visual {
+        background-image: url(../assets/food.jpg);
+        background-size: cover;
+    }
+}
+
+.menu-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 28rem;
+    padding: 9rem 4rem 4rem;
+    background-color: var(--lt-blue);
+    color: var(--accent);
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+    .vibe-visual {
+        width: 100vw;
+        height: 80vh;
+        top: 20px;
+        background-image: url(../assets/vibe.jpg);
+        background-size: cover;
+        margin-bottom: 1.5rem;
+    }
+    h2, p {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+
+}

@@ -1,0 +1,1 @@
+Restaurant page assigment. Practicing using Webpack, DOM manipulation, etc.
