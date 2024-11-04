@@ -23,5 +23,7 @@ export const renderHomePage = () => {
             <div class="visual"></div>
         </section>
     `;
+
+    // ADD FOOTER
     pageContainer.appendChild(homePage);
 };
