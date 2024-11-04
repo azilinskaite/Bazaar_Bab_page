@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-export const renderHomePage = (() => {
-=======
 export const renderHomePage = () => {
->>>>>>> main
     
     const pageContainer = document.querySelector("#content");
     const homePage = document.createElement("div");
     homePage.setAttribute("id", "home");
     homePage.classList.add("data-tab-content");
     homePage.innerHTML = `
-<<<<<<< HEAD
-        <section id="home">
-=======
         <header>
             <nav>
                 <button data-tab-target="#home">Home,</button>
@@ -20,7 +13,6 @@ export const renderHomePage = () => {
             </nav>
         </header>
         <section id="home-info">
->>>>>>> main
             <div class="description">
                 <div class="logo"></div>
                 <p>MIDDLE EASTERN RESTAURANT
@@ -32,8 +24,4 @@ export const renderHomePage = () => {
         </section>
     `;
     pageContainer.appendChild(homePage);
-<<<<<<< HEAD
-})();
-=======
 };
->>>>>>> main

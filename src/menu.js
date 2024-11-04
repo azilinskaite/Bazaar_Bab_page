@@ -69,8 +69,4 @@ export const renderMenuPage = () => {
         </section>
     `;
     pageContainer.appendChild(menuPage);
-<<<<<<< HEAD
-})();
-=======
 };
->>>>>>> main
