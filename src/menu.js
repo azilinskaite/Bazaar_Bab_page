@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-export const renderMenuPage = (() => {
-=======
 export const renderMenuPage = () => {
->>>>>>> main
     
     const pageContainer = document.querySelector("#content")
     const menuPage = document.createElement("div");
     menuPage.setAttribute("id", "menu");
-<<<<<<< HEAD
-    menu.classList.add("data-tab-content", "");
-    menuPage.innerHTML = `
-    
-        <section id="menu">
-=======
     menuPage.setAttribute("data-tab-content", "");
     menuPage.innerHTML = `
         <header>
@@ -23,7 +13,6 @@ export const renderMenuPage = () => {
             </nav>
         </header>
         <section id="menu-page">
->>>>>>> main
             <div class="menu-container">
             <h2>UŽKANDŽIAI</h2>
             <div class="menu-item">
